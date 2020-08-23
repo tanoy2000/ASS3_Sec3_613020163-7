@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HAPPY BIRTH DAY!"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="#164858"
+            android:layout_above="@id/imageView"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:text="Patnaree MU"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:textColor="#164358"
+            tools:ignore="DuplicateIds" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Have a girlfriend soon"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="50sp"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"/>
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_marginTop="20sp"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/p" />
+    </RelativeLayout>
+</RelativeLayout>
